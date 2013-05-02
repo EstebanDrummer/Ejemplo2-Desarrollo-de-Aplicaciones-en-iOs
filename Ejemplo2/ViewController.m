@@ -14,6 +14,12 @@
 
 @implementation ViewController
 
+-(IBAction)mensaje{
+    UIAlertView *alerta = [[UIAlertView alloc]initWithTitle:@"Hola mundo " message:@"Hola mundo" delegate:nil cancelButtonTitle:@"soy un boton" otherButtonTitles:nil];
+    [alerta show];
+    
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
